@@ -1,3 +1,3 @@
-import {CounterComponent} from "./counter"
+import {CounterComponent} from "./counter.js"
 
 CounterComponent()

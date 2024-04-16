@@ -1,3 +1,5 @@
-import {CounterComponent} from "./counter.js"
+import {CounterComponent} from "./counter";
 
-CounterComponent()
+const counterRoot = document.getElementById("root")
+CounterComponent(counterRoot);
+CounterComponent(document.getElementById("root2"), 5);
